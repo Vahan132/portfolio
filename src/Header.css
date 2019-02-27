@@ -1,0 +1,41 @@
+.Header-div {
+    width: 100%;
+}
+
+.Search-form {
+    margin-left: 35%;
+    margin-top: 2.5%;
+}
+
+.Search-form-input {
+    width: 350px;
+    height: 30px;
+    padding-left: 2px;
+    /* background-color: gray; */
+}
+
+.Search-form-button {
+    width: 200px;
+    height: 36px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.Dialog-list {
+    margin-top: 2%;
+    background-color: black;
+    color: white;
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Dialog-list > span {
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+.Dialog-list :last-child {
+    padding-right: 10px;
+}

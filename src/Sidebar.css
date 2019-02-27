@@ -1,0 +1,19 @@
+.Sidebar-list > li {
+    list-style-type: none;
+    padding-top: 30px;   
+}
+
+.Sidebar-list {
+    background-color: lightgrey;
+}
+
+.Sidebar-div {
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 20px;
+    float: left;
+}
+
+.Sidebar-list :last-child{
+    padding-bottom: 30px;
+}
