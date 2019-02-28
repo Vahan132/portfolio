@@ -4,15 +4,15 @@ import './App.css';
 import Header from './Header';
 import Sidebar from './Sidebar';
 import Products from './Products';
+import Button from './Button';
 
 class App extends Component {
 
-handleClick = () => {
-  alert('I am Clicked');
-};
+
 
   render() {
     return (
+      
       <>
         <Header/>
         <div>

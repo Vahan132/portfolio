@@ -13,7 +13,7 @@ const Product = ({ imageSrc, price, name, description }) => {
                 <h2>Product name {name}</h2>
                 <p>{description}</p>
             </div>
-            <button className="add-button">Add to Cart</button>
+            <button className="add-button" >Add to Cart</button>
         </div>
     )
 }
